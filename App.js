@@ -1,36 +1,6 @@
-import {
-  Dimensions,
-  StyleSheet,
-  View,
-  SafeAreaView,
-  Image,
-  Button,
-  Platform,
-  StatusBar,
-} from "react-native";
-import { useDimensions, useDeviceOrientation } from "@react-native-community/hooks";
+import React from "react";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
 
 export default function App() {
-  const { orientation } = useDeviceOrientation();
-  return (
-    <SafeAreaView style={styles.container}>
-      <Image
-        source={{ uri: "https://picsum.photos/200" }}
-        style={styles.image}
-      />
-    </SafeAreaView>
-  );
+  return <WelcomeScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    paddingVertical: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-  },
-
-  image: {
-    width: "100%",
-    height: orientation ? "80%" : "100%",
-  },
-});
