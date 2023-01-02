@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ibrahim Sallah\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\MongoDB\Server\6.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\nvm;C:\Program Files\nodejs;C:\Ruby31-x64\bin;C:\Users\Ibrahim Sallah\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Ibrahim Sallah\AppData\Local\Programs\Python\Python39\;C:\Users\Ibrahim Sallah\AppData\Local\Microsoft\WindosApps;C:\Users\Ibrahim Sallah\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1\bin;C:\Program Files\JetBrains\WebStorm 2022.1.2\bin;C:\Users\Ibrahim Sallah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PostgreSQL\14\lib;C:\Program Files (x86)\sqlite3;C:\Users\Ibrahim Sallah\AppData\Roaming\npm;C:\nvm;C:\Program Files\nodejs;C:\Users\Ibrahim Sallah\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MongoDB\mongosh-1.6.0-win32-x64\mongosh-1.6.0-win32-x64\bin;;C:\Users\Ibrahim Sallah\.fly\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@expo/cli/-/cli-0.4.10.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Ibrahim Sallah\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:838:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:562:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "mobo",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.9",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
